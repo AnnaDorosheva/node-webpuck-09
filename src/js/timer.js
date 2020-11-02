@@ -3,9 +3,9 @@ export default class Timer  {
         this.value = initialValue;
         this.step = step;
         this.refs = {
-            decBtn: document.querySelector('button[data-action="decrement"]'),
-            incBtn: document.querySelector('button[data-action="increment"]'),
-            clockFace: document.querySelector('div.value'),
+            decBtn: element.querySelector('button[data-action="decrement"]'),
+            incBtn: element.querySelector('button[data-action="increment"]'),
+            clockFace: element.querySelector('div.value'),
         };
     
         this.updateClockFase();
